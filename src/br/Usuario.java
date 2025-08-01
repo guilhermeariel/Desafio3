@@ -38,7 +38,7 @@ public abstract class Usuario {
     this.nome = nome;
   }
 
-  //METODOS PUBLICOS
+  //METODOS ABS
   public abstract boolean autenticar(String senha);
   public void exbirUsuario() {
     System.out.println("Nome: " + this.nome + "\nSenha: " + this.email);
