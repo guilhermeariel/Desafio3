@@ -24,6 +24,10 @@ public class Main {
     System.out.println("\n--- Exibindo usuário ---");
     adm.exbirUsuario();
 
+    System.out.println("\n--- Testando SegurancaUtils ---");
+    System.out.println("Senha 'abc123' é forte? " + SegurancaUtils.validarSenha("aqweasda15"));
+    System.out.println("Senha 'abasdas564ac' é forte? " + SegurancaUtils.validarSenha("abasdas564ac"));
+
 
   }
 }
